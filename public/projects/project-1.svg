@@ -1,0 +1,14 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1b1f"/>
+      <stop offset="100%" stop-color="#2a2d33"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <rect x="0" y="350" width="800" height="170" fill="#151618"/>
+  <path d="M-40 520C130 420 260 390 410 392C560 394 680 430 850 520" stroke="#f28a20" stroke-width="8" opacity="0.55"/>
+  <path d="M-80 500C100 390 250 350 420 350C590 350 730 390 900 500" stroke="#f8f8f8" stroke-width="2" opacity="0.35"/>
+  <rect x="42" y="42" width="240" height="40" rx="20" fill="#f28a20" fill-opacity="0.9"/>
+  <text x="162" y="67" text-anchor="middle" font-size="18" fill="#101010" font-family="Arial, sans-serif" font-weight="700">Project Placeholder 1</text>
+</svg>
