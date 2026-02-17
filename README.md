@@ -1,5 +1,6 @@
 # Tar-Tech Surface Website
 
+<<<<<<< codex/build-premium-website-for-tar-tech-surface-56vw7q
 Premium, mobile-first marketing site for **Tar-Tech Surface** built with **Next.js**.
 
 > Yes — this is a standard Next.js app. TypeScript and Tailwind are optional tools on top of Next.js for type safety and styling speed.
@@ -23,6 +24,9 @@ The extra file types are normal in modern Next.js projects:
 - `.json` → package and lint config
 
 If you prefer plain JavaScript later, this can be converted from TypeScript to `.jsx/.js`.
+=======
+Premium, mobile-first marketing site for **Tar-Tech Surface** built with Next.js App Router, TypeScript, and Tailwind CSS.
+>>>>>>> main
 
 ## Pages
 - `/` Home
@@ -43,6 +47,7 @@ npm run dev
 ```
 Open http://localhost:3000
 
+<<<<<<< codex/build-premium-website-for-tar-tech-surface-56vw7q
 ## Deploy to Vercel (step-by-step)
 1. Push this repo to GitHub.
 2. Go to [vercel.com](https://vercel.com) and sign in.
@@ -66,6 +71,12 @@ Simple upgrade path:
 3. Switch content source by route param.
 
 If you want, I can implement full multilingual routing in the next update.
+=======
+## Deploy to Vercel
+1. Push repository to GitHub.
+2. Import project in Vercel.
+3. Deploy with default settings.
+>>>>>>> main
 
 ## Content editing
 - Main editable content: `src/data/content.ts`
@@ -84,6 +95,7 @@ If you want, I can implement full multilingual routing in the next update.
   - Location
   - Notes
 
+<<<<<<< codex/build-premium-website-for-tar-tech-surface-56vw7q
 ## 404 on Vercel? (Fix checklist)
 If you see `404: NOT_FOUND` on the deployed URL, it is usually a Vercel project setup issue, not a Next.js routing issue.
 
@@ -101,3 +113,5 @@ Then:
 
 A global Vercel 404 page means there is no successful production deployment being served for that URL yet.
 
+=======
+>>>>>>> main
