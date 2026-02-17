@@ -83,3 +83,21 @@ If you want, I can implement full multilingual routing in the next update.
   - Service needed
   - Location
   - Notes
+
+## 404 on Vercel? (Fix checklist)
+If you see `404: NOT_FOUND` on the deployed URL, it is usually a Vercel project setup issue, not a Next.js routing issue.
+
+Check these in Vercel Project Settings:
+1. **Framework Preset** = `Next.js`
+2. **Root Directory** = repository root (this folder), **not** a subfolder
+3. **Build Command** = `next build` (or leave default)
+4. **Output Directory** = empty/default for Next.js (do not set to `out`)
+5. **Production Branch** = the branch you actually pushed
+
+Then:
+1. Open **Deployments**
+2. Trigger **Redeploy** on latest commit
+3. If it still fails, open **Build Logs** and confirm install/build completed
+
+A global Vercel 404 page means there is no successful production deployment being served for that URL yet.
+
